@@ -24,8 +24,17 @@
             android:id="@+id/but_stop"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/but_stop" >
+            android:text="이미지 쇼 중지" >
         </Button>
+        <EditText
+            android:id="@+id/edit_time"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_second"/>
         </LinearLayout>
     <ViewFlipper
         android:id="@+id/view_flip"

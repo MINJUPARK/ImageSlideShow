@@ -16,18 +16,15 @@
         android:orientation="horizontal"
         >
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Button
             android:id="@+id/but_start"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/but_text_start"/>
+            android:text="@string/but_start"/>
         <Button
             android:id="@+id/but_stop"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="이미지쇼 정지" >
+            android:layout_height="match_parent"
+            android:text="@string/but_stop" >
         </Button>
         </LinearLayout>
     <ViewFlipper
